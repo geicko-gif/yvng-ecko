@@ -1,0 +1,51 @@
+.card{
+    width: 350px;
+    min-height: 230px;
+    border: 5px solid gray;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:16px;
+}
+.picture{
+    width: 350px;
+    height: 150px;
+}
+.picture-section{
+    height: 300px;
+    position:relative;
+}
+.picture{
+    width:350px;
+}
+.update{
+    background-color: rgba(45, 55, 72, 0.67);
+    color:white;
+    position: absolute
+
+}
+.company{
+    color:white;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:4px 8px
+}
+.info{
+    padding: 8px;
+    color: #483e3e;
+}
+.listing{
+    display: flex;
+    Justify-content:space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+.price{
+    font-size: 24px;
+    font-weight: bold;
+}
+.address {
+    font-weight: bold;
+    margin-bottom:4px;
+}
+.type{
+    font-size: 12px;
